@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <style>
+        .bolaground{
+            height: 1px;
+            width: 1px;
+            /* background-color: aqua; */
+            box-shadow: 10px 10px 600px 200px rgba(10,250,190,1);
+            position: absolute;
+        }
+    </style>
+<div class="bolaground">
+</div>
+
+<div id="renderAlert" class="render-alert">
+    <div class="boxalert">
+        <div class="boxMedalha">
+            <img src="./img/heart.png" alt="">
+        </div>
+
+        <p>Seu imc é 40 !</p>
+    </div>
+
+</div>
+
+
+    <div class="app">
+
+        
+        <form action="">
+            <br>
+            <img src="./img/llogo.png" alt="" class="llogo">
+            <h2>IMc Fast</h2>
+            <p class="txt_title">Indice de Massa Corporal.</p>
+            <br>
+            <div class="bx_sexo">
+                <h3>Qual Sexo:</h3>
+                <select name="" id="">
+                    <option value="">Feminino</option>
+                    <option value="">Masculino</option>
+                </select>
+            </div>
+
+            <div class="bx_idade">
+                <h3>Idade:</h3>
+                <input type="number" required>
+                <div class="bolinha">
+                    <p>Anos</p>
+                </div>
+            </div>
+            <div class="bx_altura">
+                <h3>Altura:</h3>
+                <input type="text">
+                <div class="bolinha">
+                    <p>Metros</p>
+                </div>
+            </div>
+            <div class="bx_peso">
+                <h3>Peso:</h3>
+                <input type="text">
+                <div class="bolinha">
+                    <p>Quilos</p>
+                </div>
+            </div>
+            <br>
+            <div class="bx_btn_submit">
+                <button type="submit">&#128224; Calcular</button>
+            </div>
+            <div class="boxDireitosAutorais">
+                <p>Developer BrunoDev &#9749 </p>
+                <p>Todos os Direitos Reservados.</p>
+            </div>
+
+        </form>
+
+        <div class="boxIMGSEXO">
+            <img src="./img/05.png" alt="">
+
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
